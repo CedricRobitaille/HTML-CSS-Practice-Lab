@@ -9,7 +9,7 @@ html {
   padding: 3rem 2rem;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 1rem;
   font-family: "formiga", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -61,4 +61,19 @@ ol li {
   background-color: var(--accent);
   border: 2px solid var(--accent);
   color: #fff;
+}
+
+.btn-dark {
+  background: var(--primary-dark);
+  padding: .5rem 3rem;
+  border: 2px solid var(--primary-dark);
+  border-radius: 6px;
+  color: var(--primary-light);
+  transition: .25s;
+}
+
+.btn-light:hover {
+  background-color: var(--primary-light);
+  border: 2px solid var(--primary-dark);
+  color: #000;
 }
