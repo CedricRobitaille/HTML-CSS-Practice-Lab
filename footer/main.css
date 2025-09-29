@@ -1,0 +1,222 @@
+footer {
+  background-color: var(--primary-light);
+  padding: 2rem 8rem;
+  min-height: 24rem;
+  margin-bottom: 2rem;
+}
+
+
+
+
+
+#full {
+  display: flex;
+  align-items: center;
+}
+
+#full .container {
+  display: inline-flex;
+  align-items: start;
+  width: 100%;
+}
+
+#full .brand .tos {
+  display: flex;
+  align-items: center;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+#full hr {
+  width: .75rem;
+  margin: 0 .5rem;
+  border: 1px solid var(--primary-dark);
+}
+
+#full .link-list {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links {
+  margin-left: 5rem;
+}
+
+#full p {
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+#full li {
+  margin-bottom: 1.5rem;
+}
+
+
+
+
+
+
+#center {
+
+}
+
+#center #links {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+#center hr {
+  border: .5px solid var(--primary-dark);
+  margin-bottom: 2rem;
+}
+
+#center #links ul {
+  display: flex;
+  margin: 1.5rem;
+}
+
+#center #links ul li {
+  padding: 2rem;
+}
+#center #links ul li a:hover {
+  text-decoration: underline;
+  color: var(--accent);
+}
+
+#center .link {
+  margin: 0 auto;
+}
+
+#center h3 {
+  margin: 0;
+}
+
+
+#center #logos {
+  display: flex;
+  flex-direction: row;
+  margin: auto auto;
+  justify-content: center
+}
+
+#center #logos li {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1.5px solid var(--primary-dark);
+  border-radius: 1.5rem;
+  margin: 1rem .75rem;
+}
+
+#center .brand {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+#center .brand .tos {
+  display: flex;
+  align-items: center;
+}
+
+
+#center .brand hr {
+  width: .75rem;
+  margin: 0;
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+
+
+
+
+
+
+#blog {
+  display: flex;
+}
+
+#blog .left {
+  padding: 2rem 3rem 2rem 0rem;
+  width: 50%;
+  display: flex;
+  gap: 5rem;
+}
+
+#blog p {
+  font-size: .75rem;
+}
+
+#blog .important {
+  font-weight: 700;
+
+}
+
+#blog .right {
+  width: 50%;
+  padding: 2rem 0 2rem 3rem;
+  border-left: 2px solid;
+  display: flex;
+  flex-direction: column;
+}
+
+#blog .links {
+  display: flex;
+  flex-direction: row;
+  gap: 7rem;
+  margin-left: 0;
+}
+
+#blogs .links ul {
+  margin: 0;
+}
+
+#blog .links p {
+  font-weight: 700;
+  margin-bottom: 1.75rem;
+}
+
+#blog .links li li {
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+
+#blog .brand {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+#blog .brand .tos {
+  display: flex;
+  align-items: center;
+}
+
+
+#blog .brand hr {
+  width: .75rem;
+  margin: 0;
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
