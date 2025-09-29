@@ -2,6 +2,9 @@
   --primary-dark: #111;
   --primary-light: #fff;
   --accent: #3b1bac; 
+  max-width: 100rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 html {
