@@ -1,0 +1,124 @@
+#buttons .btn-dark {
+  background-color: var(--primary-dark);
+  color: var(--primary-light);
+  padding: 1rem 3rem;
+  border-radius: 6px;
+  margin-bottom: 2rem;
+}
+
+#buttons .btn-dark:hover {
+  background-color: #000;
+}
+
+#buttons .btn-ghost {
+  background-color: transparent;
+  color: var(--primary-dark);
+  padding: 1rem 3rem;
+  border: 2px solid var(--primary-dark);
+  border-radius: 6px;
+  margin-bottom: 2rem;
+}
+
+#buttons .btn-ghost:hover {
+  background-color: #ddd;
+}
+
+
+
+
+
+
+
+
+#feature {
+  background-color: #fff;
+  max-width: 14rem;
+  min-width: 10rem;
+  width: 100%;
+}
+
+#feature .tile {
+  width: 100%;
+  aspect-ratio: 1/1;
+  background-color: var(--primary-dark);
+  position: relative;
+}
+
+.icon-white {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 4rem;
+  width: 4rem;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+#feature .content {
+  padding: 1.5rem 1rem;
+}
+
+.push {
+  margin-bottom: 4rem;
+}
+
+
+
+
+
+
+
+
+#list {
+  padding: 2.5rem 1rem;
+  background-color: var(--primary-light);
+  border: 2px solid var(--primary-dark);
+  max-width: 14rem;
+  min-width: 10rem;
+  width: 100%;
+  text-align: center;
+}
+
+#list .icon-dark {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  background-color: var(--primary-dark);
+  margin: 0 auto 1rem auto;
+}
+
+ol {
+  margin: 2rem 0 4rem 0;
+}
+
+li {
+  padding: .5rem 0;
+  color: #555;
+}
+
+div
+
+
+
+
+
+
+
+
+#square {
+  max-width: 22rem;
+  min-width: 14rem;
+  width: 100%;
+}
+
+#square .media {
+  width: 100%;
+  aspect-ratio: 1/1;
+  background-color: var(--primary-dark);
+  margin-bottom: 2rem
+}
+
+#square h3 {
+  margin-bottom: 1.5rem;
+}

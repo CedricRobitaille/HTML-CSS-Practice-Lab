@@ -1,0 +1,64 @@
+:root {
+  --primary-dark: #111;
+  --primary-light: #fff;
+  --accent: #3b1bac; 
+}
+
+html {
+  background-color: #f2f2f2;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  font-family: "formiga", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-dark);
+}
+
+h2 {
+  margin: 0 0 1rem 0;
+}
+
+h3 {
+  margin: 0 0 1rem 0;
+}
+
+h4 {
+  margin: 0 0 .75rem 0;
+}
+
+ol {
+  padding-left: 0;
+}
+
+ol li {
+  list-style: none;
+}
+
+.btn-light {
+  background: #fff;
+  padding: .5rem 3rem;
+  border: 2px solid var(--primary-dark);
+  border-radius: 6px;
+  color: var(--primary-dark);
+  transition: .25s;
+}
+
+.btn-light:hover {
+  background-color: var(--accent);
+  border: 2px solid var(--accent);
+  color: #fff;
+}
