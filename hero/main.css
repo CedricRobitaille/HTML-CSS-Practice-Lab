@@ -1,0 +1,96 @@
+section {
+  background-color: var(--primary-light);
+  padding: 6rem;
+  margin-bottom: 2rem;
+}
+
+.screen {
+  min-width: 10rem;
+  max-width: 32rem;
+  width: 100%;
+  aspect-ratio: 16/12;
+  position: relative;
+  border: 2px solid var(--primary-dark);
+  border-radius: 6px;
+  background-color: #fbfbfb;
+}
+
+.controls {
+  position: absolute;
+  display: inline-flex;
+  gap: .5rem;
+  left: .75rem;
+  top: .75rem;
+}
+
+.controls div {
+  height: .5rem;
+  width: .5rem;
+  border-radius: 50%;
+  border: 2px solid var(--primary-dark);
+  background-color: var(--primary-light);
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+
+#section-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+#section-1 .content {
+  max-width: 20rem;
+  width: 100%;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+
+
+
+
+#section-2 {
+  max-height: 32rem;
+  height: 100%;
+  text-align: center;
+  overflow-y: hidden;
+}
+
+#section-2 .content {
+  max-width: 32rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem;
+}
+
+#section-2 .screen {
+  margin: 0 auto 0;
+  max-width: 42rem;
+}
+
+
+
+#section-3 {
+  min-height: 28rem;
+  text-align: center;
+  overflow-y: hidden;
+  position: relative;
+}
+
+#section-3 .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* This is used to ensure the container scales at small sizes, since it's contents are display: absolute; */
+.content-scaling {
+  visibility: hidden; 
+}
