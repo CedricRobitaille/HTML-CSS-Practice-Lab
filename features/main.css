@@ -1,0 +1,164 @@
+section {
+  background-color: var(--primary-light);
+  margin-bottom: 2rem;
+  display: flex;
+  min-height: 32rem;
+}
+
+aside {
+  width: 100%;
+  padding: 6rem;
+  position: relative;
+}
+
+h3 {
+  margin-bottom: 3rem;
+}
+p {
+  margin-bottom: 3rem;
+}
+
+aside div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.hidden {
+  position: relative;
+  visibility: hidden;
+}
+
+.media {
+  width: 100%;
+  background-color: var(--primary-dark);
+  padding: 4rem 4rem;
+}
+
+.media .img {
+  margin: 0 auto;
+  height: 20rem;
+  aspect-ratio: 5/6;
+  background-color: #fff;
+}
+
+#list .img {
+  padding-right: 1.25rem;
+  min-width: 30rem;
+  width: 100%;
+  position: relative;
+}
+
+#list .img .panel {
+  border-radius: 6px;
+  background-color: #fbfbfb;
+  position: absolute;
+  width: 80%;
+  aspect-ratio: 9/6;
+  border: 2px solid var(--primary-dark);
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+
+#list h3, #list p {
+  margin-left: 2.5rem;
+}
+
+#list h3 {
+  margin-bottom: 2rem;
+}
+
+#list p {
+  margin-bottom: 2rem;
+}
+
+li {
+  padding: .75rem 0;
+}
+
+
+
+
+
+
+
+blockquote {
+  width: 100%;
+  padding: 4rem 0 4rem 7rem;
+
+}
+
+#quote .img {
+  width: 130%;
+  position: relative;
+  margin-left: 2rem;
+}
+
+#quote .img .img-container {
+  width: 55%;
+  aspect-ratio: 9/6;
+  /* background-color: var(--primary-dark); */
+}
+
+.img-container {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.img-container-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#img1 {
+  width: 100%;
+    height: 100%;
+  position: absolute;
+  aspect-ratrio: 16/9;
+  background-color: var(--primary-dark);
+}
+
+#img2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  aspect-ratrio: 16/9;
+  left: 5rem;
+  top: -3rem;
+  background-color: #eee;
+  z-index: -1;
+}
+
+small {
+  font-size: .75rem;
+  color: #888;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.person p {
+  margin: 0;
+}
+
+.pfp {
+  background-color: var(--primary-dark);
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: .75rem;
+  margin-right: .5rem;
+}
+
+#quote h3 {
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+}

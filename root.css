@@ -77,3 +77,16 @@ ol li {
   border: 2px solid var(--primary-dark);
   color: #000;
 }
+
+.btn-ghost {
+  background-color: transparent;
+  color: var(--primary-dark);
+  margin: 1rem 0;
+  padding: 1rem 3rem;
+  border: 2px solid var(--primary-dark);
+  border-radius: 6px;
+}
+
+.btn-ghost:hover {
+  background-color: #ddd;
+}
