@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 4rem;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+}
+
+#list {
+  padding: 2.5rem 1rem;
+  background-color: var(--primary-light);
+  border: 2px solid var(--primary-dark);
+  max-width: 14rem;
+  min-width: 10rem;
+  width: 100%;
+  text-align: center;
+}
+
+#list .icon-dark {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  background-color: var(--primary-dark);
+  margin: 0 auto 1rem auto;
+}
+
+ol {
+  margin: 2rem 0 4rem 0;
+}
+
+li {
+  padding: .5rem 0;
+  color: #555;
+}
